@@ -1,24 +1,28 @@
 .main-keyword{
-    font-family: 'Poppins', sans-serif;color: red;}
-    h1{font-size: 60px; margin-top: 40px;font-family: poppins; }
-    h3{font-family: poppins;}
-    p{font-family: poppins;}
-    li{font-family: poppins;}
+  font-family: 'Poppins', sans-serif;color: red;}
+h1{
+  font-size: 60px; margin-top: 40px;font-family: poppins; }
+h3{font-family: poppins;}
+p{font-family: poppins;}
+li{font-family: poppins;}
 
-    .red{color:blue;}
-    .flex{display: flex; margin-bottom: 100px;}
-    .half-width{
-        width: 50%; padding-left: 5%; font: 400;
-     }
-     .half-width img { 
-         width: 80%;}
-    .learn-more {text-decoration: none;
-    background-image: linear-gradient(red,purple); color: white; padding: 6px; font: 400;
-     }
-     .learn-more:hover{background-image: linear-gradient(purple,red); color: black;}
-    .one{background-image: url(images/top-banner.png);background-repeat: no-repeat;}
+.red{color:blue;}
+.rred{color: red;}
+.flex{display: flex; margin-bottom: 100px;}
+.half-width{
+        width: 50%; padding-left: 5%; font: 400;}
+.half-width img { width: 80%;}
+.learn-more {text-decoration: none;
+            background-image: linear-gradient(red,blue); 
+            color: white; padding: 6px; font: 400;}
+.learn-more:hover{background-image: linear-gradient(blue,red);
+            color: black;}
+.one{background-image: url(images/top-banner.png);background-repeat: no-repeat;}
     .two{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;}
-    #health-benefits{color: blue;}
+.health{box-shadow:10px 10px 40px gray; width: 40%;margin-left: 5%;margin-right: 5%; padding: 40px;} 
+.three{background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat; }
+ #health-benefits{color: blue;}
     .topnav {
         overflow: hidden;
       }
