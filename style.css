@@ -1,8 +1,11 @@
 .main-keyword{
-    font-family: 'Poppins', sans-serif;}
-    h1{font-size: 60px; margin-top: 40px;color: red; }
-    .red{color: purple;}
-    section{display: flex; }
+    font-family: 'Poppins', sans-serif;color: red;}
+    h1{font-size: 60px; margin-top: 40px;font-family: poppins; }
+    h3{font-family: poppins;}
+    p{font-family: poppins;}
+
+    .red{color:blue;}
+    section{display: flex; margin-bottom: 100px;}
     .half-width{
         width: 50%; padding-left: 5%; font: 400;
      }
@@ -13,6 +16,7 @@
      }
      .learn-more:hover{background-image: linear-gradient(purple,red); color: black;}
     .one{background-image: url(images/top-banner.png);background-repeat: no-repeat;}
+    .two{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;}
     .topnav {
         overflow: hidden;
       }
@@ -33,3 +37,5 @@
       .topnav a.active {
         background-color:purple;
         color: white;}
+        .blue{color: red;}
+        #scnd-head{color: blue; }
