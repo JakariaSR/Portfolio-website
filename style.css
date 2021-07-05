@@ -3,9 +3,10 @@
     h1{font-size: 60px; margin-top: 40px;font-family: poppins; }
     h3{font-family: poppins;}
     p{font-family: poppins;}
+    li{font-family: poppins;}
 
     .red{color:blue;}
-    section{display: flex; margin-bottom: 100px;}
+    .flex{display: flex; margin-bottom: 100px;}
     .half-width{
         width: 50%; padding-left: 5%; font: 400;
      }
@@ -17,6 +18,7 @@
      .learn-more:hover{background-image: linear-gradient(purple,red); color: black;}
     .one{background-image: url(images/top-banner.png);background-repeat: no-repeat;}
     .two{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;}
+    #health-benefits{color: blue;}
     .topnav {
         overflow: hidden;
       }
