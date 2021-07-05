@@ -4,15 +4,15 @@
     .red{color: purple;}
     section{display: flex; }
     .half-width{
-        width: 50%; padding-left: 5%;
+        width: 50%; padding-left: 5%; font: 400;
      }
      .half-width img { 
-         width: 80%;
-         .lern-more{
-           text-decoration: none;
-          background-image:linearGradient (red,purpule); 
-         }
+         width: 80%;}
+    .learn-more {text-decoration: none;
+    background-image: linear-gradient(red,purple); color: white; padding: 6px; font: 400;
      }
+     .learn-more:hover{background-image: linear-gradient(purple,red); color: black;}
+    .one{background-image: url(images/top-banner.png);background-repeat: no-repeat;}
     .topnav {
         overflow: hidden;
       }
